@@ -10,22 +10,25 @@
 @theme {
     --font-display: "Montserrat", sans-serif;
 
-    --color-primary: rgba(0, 114, 208, 1);
-    --color-heading: rgba(0, 168, 116, 1);
+    --color-primary: rgba(0, 91, 104, 1);
+    --color-header-btn: rgba(9, 56, 44, 1);
+    --color-heading: rgba(3, 151, 87, 1);
+    --color-hero-btn: rgba(3, 151, 87, 1);
     --color-background-card: rgba(239, 249, 255, 1);
-    --color-cards-advantages: rgba(243, 243, 243, 1);
-    --color-why-us-left: rgba(228, 250, 255, 1);
-    --color-why-us-right: rgba(239, 255, 252, 1);
-    --color-card-one: rgba(249, 249, 249, 1);
+    --color-cards-advantages: rgba(236, 246, 231, 1);
+    --color-advantages-subheading: rgba(3, 151, 87, 1);
+    --color-why-us-left: rgba(242, 246, 231, 1);
+    --color-why-us-right: rgba(238, 245, 255, 1);
     --color-card-two-special-text: rgba(127, 17, 0, 1);
     --color-card-three-special-text: rgba(0, 127, 88, 1);
     --color-card-four-special-text: rgba(202, 131, 8, 1);
-    --color-card-two: rgba(255, 245, 238, 1);
-    --color-card-three: rgba(239, 252, 243, 1);
-    --color-card-four: rgba(255, 250, 210, 1);
-    --color-contact-form: rgba(0, 114, 208, 1);
-    --color-contact-form-shape: rgba(0, 88, 161, 1);
-    --color-footer: rgba(1, 21, 39, 1);
+    --color-card-one: rgba(249, 249, 249, 1);
+    --color-card-two: rgba(249, 249, 249, 1);
+    --color-card-three: rgba(249, 249, 249, 1);
+    --color-card-four: rgba(249, 249, 249, 1);
+    --color-contact-form: rgba(38, 120, 152, 1);
+    --color-contact-form-shape: rgba(3, 82, 113, 1);
+    --color-footer: rgba(42, 51, 63, 1);
 }
 
 @layer utilities {
@@ -41,7 +44,7 @@
     .bg-glow-hero {
         top: -90%;
         left: -25%;
-        background: radial-gradient(50% 50% at 50% 50%, rgba(179, 239, 236, 0.7) 0%, rgba(179, 239, 236, 0) 100%);
+        background: radial-gradient(50% 50% at 50% 50%, rgba(179, 220, 239, 0.7) 0%, rgba(179, 220, 239, 0) 100%);
     }
 
     .bg-glow-advantages {
@@ -55,7 +58,7 @@
     .bg-glow-invests {
         top: -20%;
         left: -13%;
-        background: radial-gradient(50% 50% at 50% 50%, rgba(157, 211, 255, 0.4) 0%, rgba(157, 211, 255, 0) 100%);
+        background: radial-gradient(50% 50% at 50% 50%, rgba(255, 234, 157, 0.4) 0%, rgba(255, 234, 157, 0) 100%);
     }
 
     .section-spacing {
